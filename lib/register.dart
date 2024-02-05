@@ -38,7 +38,7 @@ class _MyRegisterState extends State<MyRegister> {
           alignment: Alignment.topCenter,
           children: [
             Container(
-              padding: EdgeInsets.only(left: 5.w, top: 2.h),
+              padding: EdgeInsets.only(left: 5.w, top: 1.h),
               height: 25.h,
               width:100.w,
               child: Center(
@@ -58,7 +58,7 @@ class _MyRegisterState extends State<MyRegister> {
             SingleChildScrollView(
               child: Container(
                 padding: EdgeInsets.only(
-                    top: 10.h),
+                    top: 8.h),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -85,7 +85,6 @@ class _MyRegisterState extends State<MyRegister> {
                       margin: EdgeInsets.only(left: 20, right: 20),
                       padding:EdgeInsets.only(left: 20, right: 20),
                         width:100.w,
-
                         decoration: BoxDecoration(
                           // Your container background color
                           color:Colors.lightBlue,
@@ -95,7 +94,7 @@ class _MyRegisterState extends State<MyRegister> {
                       child: Column(
                         children: [
                           SizedBox(
-                            height: 30,
+                            height: 20,
                           ),
                           TextField(
                             style: TextStyle(color: Colors.white),
@@ -198,7 +197,7 @@ class _MyRegisterState extends State<MyRegister> {
                             height: 40,
                           ),
                           Container(
-                            margin:  EdgeInsets.only(bottom: 30),
+                            margin:  EdgeInsets.only(bottom: 28),
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.center,
 
